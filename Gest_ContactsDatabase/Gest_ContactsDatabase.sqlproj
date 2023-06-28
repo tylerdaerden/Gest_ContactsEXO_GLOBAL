@@ -65,6 +65,7 @@
     <Build Include="Procedures\CSP_Register.sql" />
     <Build Include="Functions\CSF_GetPreSalt.sql" />
     <Build Include="Functions\CSF_GetPostSalt.sql" />
+    <Build Include="Procedures\CSP_Login.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Gest_ContactsDatabase.publish.xml" />

@@ -67,6 +67,7 @@
     <Build Include="Functions\CSF_GetPostSalt.sql" />
     <Build Include="Procedures\CSP_Login.sql" />
     <Build Include="Table\Contact.sql" />
+    <Build Include="Functions\CSF_HashPassword.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Gest_ContactsDatabase.publish.xml" />

@@ -59,17 +59,28 @@
     <Folder Include="Table" />
     <Folder Include="Procedures" />
     <Folder Include="Functions" />
+    <Folder Include="Procedures\Utilisateur" />
+    <Folder Include="Procedures\Contact" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Table\Utilisateur.sql" />
-    <Build Include="Procedures\CSP_Register.sql" />
     <Build Include="Functions\CSF_GetPreSalt.sql" />
     <Build Include="Functions\CSF_GetPostSalt.sql" />
-    <Build Include="Procedures\CSP_Login.sql" />
     <Build Include="Table\Contact.sql" />
     <Build Include="Functions\CSF_HashPassword.sql" />
+    <Build Include="Procedures\Utilisateur\CSP_Login.sql" />
+    <Build Include="Procedures\Utilisateur\CSP_Register.sql" />
+    <Build Include="Procedures\Contact\CSP_AddContact.sql" />
+    <Build Include="Procedures\Contact\CSP_DeleteContact.sql" />
+    <Build Include="Procedures\Contact\CSP_GetContact.sql" />
+    <Build Include="Procedures\Contact\Get_Contacts.sql" />
+    <Build Include="Procedures\Contact\CSP_UpdateContact.sql" />
+    <Build Include="Procedures\Contact\CSP_UpdateContactPhone.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Gest_ContactsDatabase.publish.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="Gest_ContactsDatabase.refactorlog" />
   </ItemGroup>
 </Project>

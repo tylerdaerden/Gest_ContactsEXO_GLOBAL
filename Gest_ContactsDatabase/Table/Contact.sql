@@ -4,7 +4,7 @@
     [Nom] NVARCHAR(50) NOT NULL, 
     [Prenom] NVARCHAR(50) NOT NULL, 
     [Email] NVARCHAR(384) NOT NULL, 
-    [DateNaiss] DATE NOT NULL, 
+    [Anniversaire] DATE NOT NULL, 
     [Tel] NVARCHAR(20) NOT NULL, 
     [UtilisateurId] INT NOT NULL, 
     CONSTRAINT [PK_Contact] PRIMARY KEY ([Id]), 
